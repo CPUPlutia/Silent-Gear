@@ -25,9 +25,9 @@ public class KeyTracker {
     public static final KeyMapping DISPLAY_STATS = createKeyBinding("displayStats", GLFW.GLFW_KEY_LEFT_CONTROL);
     public static final KeyMapping DISPLAY_TRAITS = createKeyBinding("displayTraits", GLFW.GLFW_KEY_LEFT_SHIFT);
     public static final KeyMapping DISPLAY_CONSTRUCTION = createKeyBinding("displayConstruction", GLFW.GLFW_KEY_LEFT_ALT);
-    public static final KeyMapping OPEN_ITEM = createKeyBinding("openItem", GLFW.GLFW_KEY_X);
-    public static final KeyMapping CYCLE_BACK = createKeyBinding("cycle.back", GLFW.GLFW_KEY_Z);
-    public static final KeyMapping CYCLE_NEXT = createKeyBinding("cycle.next", GLFW.GLFW_KEY_C);
+    public static final KeyMapping OPEN_ITEM = createKeyBinding("openItem", GLFW.GLFW_KEY_UP);
+    public static final KeyMapping CYCLE_BACK = createKeyBinding("cycle.back", GLFW.GLFW_KEY_LEFT);
+    public static final KeyMapping CYCLE_NEXT = createKeyBinding("cycle.next", GLFW.GLFW_KEY_RIGHT);
 
     private static int materialCycleCount = 0;
 
